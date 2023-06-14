@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoobo.contact</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <img class="bg-image" src="./image/scale_1200.webp" alt="Kompaniya rasmi">
+    <nav class="navbar nav">
+        <a href="#" class="logo">Scoobo</a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./course.html">Course</a></li>
+                <li><a class="active" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <main>
+        <section id="section-contact">
+            <h2>Biz bilan bog'lanish</h2>
+            <form action="https://echo.htmlacademy.ru/" method="POST" class="contact__item">
+                <input type="text" name="user_name" aria-label="enter your name" class="contact__user"
+                    placeholder="Ismingiz" required>
+                <input type="tel" name="tel" aria-label="enter your phone number" class="contact__user"
+                    placeholder="Telefon raqamingiz" required>
+                <textarea class="contact__textArea" name="user_question" cols="38" rows="6"
+                    aria-label="Enter a question or suggestion" placeholder="Savol yoki taklif kiriting !"></textarea>
+                <button type="submit" class="contact__submit">Jo'natish</button>
+            </form>
+        </section>
+    </main>
+
+    <div class="clr"></div>
+    <div id="footer">
+        <p>Scoobo Akvalang konmpany @2023</p>
+    </div>
+
+</body>
+
+</html>
